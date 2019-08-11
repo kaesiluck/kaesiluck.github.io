@@ -1,0 +1,546 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+/*HEADER STYLE*/
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-brand {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 35px 0;
+  text-align: left;
+  line-height: 30px;
+  padding: 0px 20px 0px 40px;
+  border-right: 3px solid #111;
+  float: left;
+}
+
+header nav ul {
+  display: block;
+  margin: 20px 0;
+  width: fit-content;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 500;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  line-height: 60px;
+}
+
+/*BANNER STYLE*/
+
+.index-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('indexbanner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-banner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.index-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/*LINK BOXES STYLE*/
+
+.index-links {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.index-links div {
+  margin: 15px 15px 15px 15px;
+  background-color: #5f9ea0;
+  float: left;
+}
+
+.index-boxlink-square {
+  width: calc(25% - 30px) !important;
+  height: 200px;
+}
+
+.index-boxlink-rect {
+  width: calc(50% - 30px);
+  height: 200px;
+}
+
+.index-links div h3 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 400;
+  color: #2f4f4f;
+  padding-top: 28px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+/*WRAPPER STYLE*/
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*FOOTER STYLE*/
+
+footer {
+  background-color: #111;
+}
+
+footer ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+footer ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+footer ul li a {
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+
+footer h4 {
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 16px;
+}
+
+footer p {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*TRAVELS STYLE*/
+
+/*TRAVEL BANNER STYLE*/
+
+.travels-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('icelandBanner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.travels-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.travels-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/*TRAVEL PHOTO STYLE*/
+
+.gallery {
+  overflow: hidden;
+  padding-bottom: 500px;
+}
+
+div.travels-photos {
+  object-fit: contain;
+  display: inline;
+  width: 180px;
+  padding-bottom: 20px;
+}
+
+div.travels-photos:hover {
+  border: 1px solid #777;
+}
+
+div.travels-photos img {
+  width: calc(25% - 5px);
+  height: auto;
+}
+
+.travels-title h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #5f9ea0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.travels-title h4 {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 20px;
+  color: #5f9ea0;
+  text-align: center;
+}
+
+/*PORTFOLIO STYLE*/
+
+/*PORTFOLIO BANNER STYLE*/
+
+.portfolio-banner {
+  width: 100%;
+  height: 870px;
+  background-image: url('regularSolids.PNG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.portfolio-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #ffd700;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.portfolio-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffd700;
+  text-align: center;
+  text-shadow: 2px 2px 8px #fff;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/*WORK STYLE*/
+
+/*WORK BANNER STYLE*/
+
+.work-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('work.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.work-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.work-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/*EDUCATION STYLE*/
+
+/*EDUCATION BANNER STYLE*/
+
+.education-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('school.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.education-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.education-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.education-main h1 {
+  font-family: Lora;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #708090;
+  text-align: left;
+  margin-top: 20px;
+
+}
+
+.education-main h3 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 40px;
+  color: #2f4f4f;
+  text-align: left;
+
+}
+
+.education-main h5 {
+  font-family: Lora;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 20px;
+  color: #111;
+  text-align: left;
+  /*margin-top: 5px;*/
+  font-style: italic;
+
+}
+
+div .education-uc h4 {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #708090;
+  text-align: left;
+  /*margin-top: 10px;*/
+}
+
+div .education-uc ul {
+  width: fit-content;
+  overflow: hidden;
+}
+
+div .education-uc ul li {
+  list-style: none;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 150;
+  line-height: 18px;
+  color: #2f4f4f;
+}
+
+div .education-psu h4 {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #708090;
+  text-align: left;
+  margin-top: 10px;
+}
+
+div .education-psu ul {
+  width: fit-content;
+  overflow: hidden;
+}
+
+div .education-psu ul li {
+  list-style: none;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 150;
+  line-height: 18px;
+  color: #2f4f4f;
+}
+
+/*ABOUT STYLE*/
+
+/*ABOUT BANNER STYLE*/
+
+.about-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('about.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.about-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.about-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/*CONTACT STYLE*/
+
+/*CONTACT BANNER STYLE*/
+
+.contact-banner {
+  width: 100%;
+  height: 600px;
+  background-image: url('contact.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.contact-banner h2 {
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  margin-top: 10px;
+}
+
+.contact-banner h1 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
