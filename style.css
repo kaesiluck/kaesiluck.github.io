@@ -555,12 +555,12 @@ div .education-psu ul li {
   /*margin-top: 10px;*/
 }
 
- .contact-main ul {
+ div.contact-main ul {
   width: fit-content;
   overflow: hidden;
 }
 
- .contact-main ul li {
+ div.contact-main ul li {
   list-style: none;
   font-family: Lora;
   font-size: 18px;
@@ -569,7 +569,7 @@ div .education-psu ul li {
   color: #2f4f4f;
 }
 
-.contact-main form {
+div.contact-main form {
    margin: 15px 15px 15px 15px;
    background-color: #5f9ea0;
    float: left;
@@ -577,7 +577,7 @@ div .education-psu ul li {
    height: 200px;
 }
 
-.contact-main input[type = text] {
+div.contact-main input[type = text] {
   width: calc(40% - 30px);
   padding: 12px 20px;
   margin: 8px 0;
