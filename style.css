@@ -569,3 +569,17 @@ div .contact-sub ul li {
   color: #2f4f4f;
 }
 
+div.contact-sub form {
+   margin: 15px 15px 15px 15px;
+   background-color: #5f9ea0;
+   float: left;
+   width: calc(50% - 30px);
+   height: 200px;
+}
+
+div.contact-sub input[type = text] {
+  width: calc(40% - 30px);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
