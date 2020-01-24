@@ -544,3 +544,28 @@ div .education-psu ul li {
   width: 550px;
   margin: 0 auto;
 }
+
+div .contact-main h4 {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #708090;
+  text-align: left;
+  /*margin-top: 10px;*/
+}
+
+div .contact-sub ul {
+  width: fit-content;
+  overflow: hidden;
+}
+
+div .contact-sub ul li {
+  list-style: none;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 150;
+  line-height: 18px;
+  color: #2f4f4f;
+}
+
