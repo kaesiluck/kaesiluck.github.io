@@ -580,6 +580,7 @@ div.contact-main form {
 div.contact-main input[type = text] {
   width: calc(40% - 30px);
   padding: 12px 20px 12px 20px;
+  padding-bottom: 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
