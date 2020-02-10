@@ -185,6 +185,7 @@ footer p {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /*TRAVELS STYLE*/
@@ -555,22 +556,17 @@ div .education-psu ul li {
   /*margin-top: 10px;*/
 }
 
- div.contact-main ul {
-  width: fit-content;
-  overflow: hidden;
+ .contact-main h2 {
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 20px;
+  color: #708090;
   text-align: center;
 }
 
- div.contact-main ul li {
-  list-style: none;
-  font-family: Lora;
-  font-size: 18px;
-  font-weight: 150;
-  line-height: 18px;
-  color: #2f4f4f;
-}
-
 div.contact-main form {
+   font-family: Lora;
    margin: 15px 15px 15px 15px;
    background-color: #5f9ea0;
    float: left;
