@@ -686,7 +686,8 @@ div.contact-main form {
 div.contact-main input[type = text] {
   font-family: Lora;
   width: calc(40% - 30px) !important;
-  height: 100px;
+  height: 50px;
+  text-align: left;
   padding: 12px 20px 12px 20px;
   padding-bottom: 20px;
   margin: 8px 0;
