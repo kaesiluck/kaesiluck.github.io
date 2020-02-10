@@ -558,6 +558,7 @@ div .education-psu ul li {
  div.contact-main ul {
   width: fit-content;
   overflow: hidden;
+  text-align: center;
 }
 
  div.contact-main ul li {
@@ -568,6 +569,8 @@ div .education-psu ul li {
   line-height: 18px;
   color: #2f4f4f;
 }
+
+
 /*
 div.contact-main form {
    margin: 15px 15px 15px 15px;
