@@ -372,9 +372,21 @@ div.travels-photos img {
   margin: 0 auto;
 }
 
-.work-main p {
+.work-main h3 {
   font-family: Lora;
   font-size: 18px;
+  font-weight: 200;
+  color: #708090;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.work-main p {
+  font-family: Lora;
+  font-size: 16px;
   font-weight: 200;
   color: #2f4f4f;
   text-align: left;
