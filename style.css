@@ -648,7 +648,7 @@ div .education-psu ul li {
 }
 
 .contact-main {
-  margin-bottom: 150px;
+  /*margin-bottom: 150px;*/
   display: block;
 }
 
@@ -700,6 +700,6 @@ div.contact-main input[type = submit] {
   height: 25px;
   padding: 12px 20px 12px 20px;
   margin: 8px 0;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
