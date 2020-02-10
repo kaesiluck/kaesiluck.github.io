@@ -558,6 +558,56 @@ div .education-psu ul li {
   margin: 0 auto;
 }
 
+.about-main {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 200;
+  color: #5f9ea0;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.about-main h2 {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 200;
+  color: #5f9ea0;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.about-main h3 {
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 200;
+  color: #708090;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.about-main p {
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 200;
+  color: #2f4f4f;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+
 /*CONTACT STYLE*/
 
 /*CONTACT BANNER STYLE*/
