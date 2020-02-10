@@ -626,6 +626,7 @@ div.contact-main form {
    padding: 12px 20px 12px 20px;
    text-align: center;
    margin-bottom: 30px;
+   padding-bottom: 500px;
 }
 
 div.contact-main input[type = text] {
