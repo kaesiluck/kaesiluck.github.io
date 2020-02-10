@@ -648,7 +648,7 @@ div .education-psu ul li {
 }
 
 .contact-main {
-  /*margin-bottom: 150px;*/
+  margin-bottom: 100px;
   display: block;
 }
 
@@ -676,8 +676,8 @@ div.contact-main form {
    margin: 15px 15px 15px 15px;
    background-color: #daa520;
    float: left;
-   width: calc(45% - 30px) !important;
-   height: 175px;
+   width: calc(35% - 30px) !important;
+   height: 135px;
    padding: 12px 20px 12px 20px;
    text-align: center;
    margin-left: 365px;
