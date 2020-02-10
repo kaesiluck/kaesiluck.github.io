@@ -691,3 +691,12 @@ div.contact-main input[type = text] {
   margin: 8px 0;
   box-sizing: border-box;
 }
+
+div.contact-main input[type = submit] {
+  font-family: Lora;
+  width: 200px;
+  height: 100px;
+  padding: 12px 20px 12px 20px;
+  margin: 8px 0;
+  text-transform: uppercase;
+}
