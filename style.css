@@ -357,7 +357,8 @@ div.travels-photos img {
   line-height: 30px;
   display: block;
   width: 550px;
-  margin-top: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .work-main h2 {
