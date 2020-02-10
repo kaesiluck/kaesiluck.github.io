@@ -647,6 +647,10 @@ div .education-psu ul li {
   margin: 0 auto;
 }
 
+.contact-main {
+  margin: 0 auto;
+}
+
  .contact-main h4 {
   font-family: Lora;
   font-size: 20px;
@@ -675,7 +679,6 @@ div.contact-main form {
    height: 175px;
    padding: 12px 20px 12px 20px;
    text-align: center;
-   margin-bottom: 300px;
 }
 
 div.contact-main input[type = text] {
