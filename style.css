@@ -611,13 +611,14 @@ div.contact-main form {
    margin: 15px 15px 15px 15px;
    background-color: #5f9ea0;
    float: left;
-   width: calc(50% - 30px);
-   height: 200px;
+   width: calc(45% - 30px) !important;
+   height: 175px;
    padding: 12px 20px 12px 20px;
    text-align: center;
 }
 
 div.contact-main input[type = text] {
+  font-family: Lora;
   width: calc(40% - 30px) !important;
   height: 100px;
   padding: 12px 20px 12px 20px;
