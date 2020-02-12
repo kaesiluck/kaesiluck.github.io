@@ -438,25 +438,41 @@ div.travels-photos img {
   margin: 0 auto;
 }
 
+.education-main {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 200;
+  color: #5f9ea0;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 .education-main h1 {
   font-family: Lora;
-  font-size: 50px;
-  font-weight: 900;
-  line-height: 60px;
-  color: #708090;
+  font-size: 20px;
+  font-weight: 200;
+  color: #5f9ea0;
   text-align: left;
-  margin-top: 20px;
-
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
 }
 
 .education-main h3 {
   font-family: Lora;
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 40px;
-  color: #2f4f4f;
+  font-size: 18px;
+  font-weight: 200;
+  color: #708090;
   text-align: left;
-
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
 }
 
 .education-main h5 {
