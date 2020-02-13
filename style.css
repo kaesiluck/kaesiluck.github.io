@@ -497,6 +497,12 @@ div.travels-photos img {
 .education-main ul {
   width: fit-content;
   overflow: hidden;
+  text-align: left;
+  line-height: 30px;
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .education-main ul li {
